@@ -395,3 +395,29 @@ footer{
         width: 60px;
     }
 }
+
+@media (max-width: 480px){
+    .section_2_1{
+        flex-direction: column;
+    }
+
+    .section_3_1{
+        flex-direction: column;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    #clients{
+        height: 80px;
+    }
+
+    .client img{
+        width: 50px;
+    }
+
+    .contact{
+        flex-wrap: wrap;
+    }
+}
